@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Тестові CSV-файли (великі!) — опційно
+# Залиште ці рядки, якщо не хочете пушити 500k записів (~30 МБ)
+data/accounts_100000.csv
+data/accounts_500000.csv
+
+# Але маленькі залишаємо (щоб репо був відтворюваний)
+!data/accounts.csv
+!data/accounts_10000.csv
